@@ -1,0 +1,62 @@
+/*------1050px TO 1680PX----------------------------------------------------------***/
+@media only screen and (min-width:1050px) and (max-width: 1680px){
+    h1{
+        color:red;
+    }
+
+    .hr-style-line,
+    .hr-style-line1,
+    .hr-style-line2,
+    .hr-style-line3{
+        width: 15%;
+        margin-left: 680px;
+    }
+
+    /*-------------------------------------------------------------------------------*/
+    /*-------MEALS WRAP SECTION I M HUNGRY PART-----------------------------------!****/
+    .meals-wrap{
+        width: 100%;
+    }
+     /**FOODS PHOTOS IMAGES SECTION**/
+     .meal-photo img{ 
+         margin-left: 50px;
+     }
+
+     /***------------------FIGURE WITH MOBILE APPS LINKS-----------------------------*/
+     figure.mobile-apps{
+        margin-left: 550px;
+        margin-top: -200px;
+
+    }
+    /**-----------------------------BRANCH FIGURE-------------------------------**/
+    
+    /*BRANCHES--------------------------------------------------------------- ***/
+    .location-branches{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+       /**-------BRANCHES PHOTOS-----**/
+       img.branch-img{
+        width: 350px;
+       border: 2px solid red;
+       }    
+
+
+       /**----------VIDEO SECTION***----*/
+       #live-music-part{ 
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: black;
+      
+     
+         }
+    
+       #video{
+           margin-left: 50px;
+           border: 1px solid white;
+
+         }
+        }

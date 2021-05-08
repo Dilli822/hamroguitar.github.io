@@ -1,0 +1,77 @@
+
+/*------------900PX--TO--1440PX-------------------------*/
+@media only screen and (min-width:900px) and (max-width: 1440px){
+  
+    h1{
+        color:blue;
+    }
+    .main-nav{
+        position: absolute;
+    }
+
+    button.btn1{
+        margin-left: 450px;
+    }
+
+    .hr-style-line,
+    .hr-style-line1,
+    .hr-style-line2,
+    .hr-style-line3{
+        margin-left: 620PX;
+        width: 15%;
+    }
+    .location-branches{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: px solid red;
+    }
+    img.branch-img{
+        width: 550px;
+    }
+    .meals-wrap{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: px solid red;
+    width: 100%;
+    }
+
+    .meal-photo{
+        width: 500px;
+        margin-left: 75px;
+        padding: 15px;
+    }
+   /***------------------FIGURE WITH MOBILE APPS LINKS----------------------*/
+   figure.mobile-apps{
+    margin-left: 600px;
+    margin-top: -200px;
+
+}
+   
+    .live-music-part{ 
+        display: flex;
+        flex-wrap: wrap;
+        width: 99%;
+        background-color: black;
+      
+    }
+    
+    /**--------------------------------------VIDEO STYLE-----------------------------------*/
+    #video{
+        width: 100%;
+        border: 1px solid white;
+        margin: 0px;
+      
+    }
+    #comment{
+        width: 65%;
+    }
+    }
+
+    @media only screen and (max-width: 1440px){
+        h1{
+            color:black;
+        }
+}

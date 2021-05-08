@@ -1,0 +1,25 @@
+
+        @media only screen and (min-width:1080px) and (max-width: 1920px){
+   
+            /**------------------------SPAN CIRCLE DOTS----------------------- **/
+            span.dot{
+               width: 5%;
+            }
+            /***------------------FIGURE WITH MOBILE APPS LINKS-----------------------------*/
+           /**-------------------------INNER ARTICLE OPTIONS--------------------- **/
+           article.options{
+               border: px solid red;
+               margin-left: 55px;
+           }
+       
+           /***------------------FIGURE WITH MOBILE APPS LINKS-----------------------------*/
+           figure.mobile-apps{
+               margin-left: 320px;
+               margin-top: 0px;
+           }
+       #video{
+           width: 150px;
+       }
+       }
+       
+           
